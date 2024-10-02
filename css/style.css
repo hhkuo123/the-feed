@@ -29,7 +29,7 @@ nav {
 nav img:hover{
     background-color:rgb(255 125 5);
     opacity: .5;
-    transform: scale(1.05);
+    transform: scale(1.0);
 }
 
 h1 {
@@ -63,21 +63,21 @@ section {
     text-align: center;
 }
 
-section img {
+/*section img {
     border: 5px solid orange;
     padding: 3%;
     background-color: rgb(251,252,255 50%);
     max-width: 100%;
     height: auto;
     width:auto;
-}
+} */
 
 section img:hover {
-    transform: rotate(-5deg);
+    transform: scale(10deg);
 }
 
 section video:hover {
-    transform: rotate(5deg);
+    transform: scale(1.05);
 }
 
 section video {
@@ -89,7 +89,7 @@ section video {
 }
 
 p{
-    color:crimson;
+    color:whitesmoke;
     font-size: 20px;
     font-weight: 100;
 }
@@ -100,6 +100,12 @@ a {
 
 a:hover {
     opacity: 0.5;
+    color:pink;
+}
+
+h1:hover {
+    opacity: 0.5;
+    color:pink;
 }
 
 footer {
@@ -127,5 +133,21 @@ header img:hover {
     border: 1px solid white;
 }
 
+#group {
+    border: 5px solid orange;
+    padding: 3%;
+    width: auto;
+    background-color: grey;
+}
 
+#mall {
+
+}
+
+#mall img {
+    border: 5px solid orange;
+    padding: 3%; 
+    width: 100%; 
+}
 /* 16 by 16 and png for cursor need to be less than 128*/
+
