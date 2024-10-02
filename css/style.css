@@ -73,7 +73,7 @@ section {
 } */
 
 section img:hover {
-    transform: scale(10deg);
+    transform: scale(1.05);
 }
 
 section video:hover {
@@ -137,17 +137,14 @@ header img:hover {
     border: 5px solid orange;
     padding: 3%;
     width: auto;
-    background-color: grey;
+    
 }
 
-#mall {
-
-}
-
-#mall img {
+/*#mall img {
     border: 5px solid orange;
     padding: 3%; 
     width: 100%; 
-}
+} */
+
 /* 16 by 16 and png for cursor need to be less than 128*/
 
